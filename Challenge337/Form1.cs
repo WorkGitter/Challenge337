@@ -116,7 +116,7 @@ namespace Challenge337
                     // we should now have the position of our key colour (red).
                     // Check that we have found it
                     /*Debug.Assert(p < imagewidth);*/
-                    if(p < imagewidth)
+                    if(p >= imagewidth)
                     {
                         MessageBox.Show("Unable to descramble\nTry the other button!");
                         return;
@@ -174,7 +174,7 @@ namespace Challenge337
                     // Check that we have found it
                     /*Debug.Assert(p < imagewidth);*/
 
-                    if (p < imagewidth)
+                    if (p >= imagewidth)
                     {
                         MessageBox.Show("Unable to descramble!");
                         return;
