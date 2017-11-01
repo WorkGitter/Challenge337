@@ -84,7 +84,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(89, 23);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Descample 2";
+            this.button4.Text = "Descamble 2";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
